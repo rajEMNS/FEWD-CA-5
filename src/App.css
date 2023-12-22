@@ -1,0 +1,210 @@
+body{
+ background-image: url("https://img.freepik.com/free-vector/hand-painted-watercolor-pastel-sky-background_23-2148902771.jpg?size=626&ext=jpg&ga=GA1.1.1546980028.1702857600&semt=sph");
+ background-repeat: no-repeat;
+ background-size: cover;
+}
+.App{
+    display: flex;
+    justify-content:space-between; 
+    margin-top:5vh;
+}
+
+#title{
+    margin-top: 1vh;
+    font-size: 5vh;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-decoration-line: underline;
+    color: rgb(70, 67, 61);
+}
+#searchBar{
+    height: 6vh;
+    width: 70vh;
+    margin-top: 2vh;
+    border-radius: 4vh;
+    margin-left: 0vh;
+    /* color: rgb(55, 53, 53); */
+    
+}
+.bookData{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+  
+  }
+
+  #bookImg{
+
+    margin-top:30vh;
+    height: 45vh;
+    width: 30vh;
+    border: 1vh solid rgb(70, 67, 61);
+    border-radius: 2vh;
+    padding: 3vh 3vh 3vh 3vh;
+}
+#bookImg:hover{
+    background-color:rgb(245, 252, 255);
+
+}
+
+.registerBtn{
+    display: flex;
+}
+#registerBtn{
+    margin-top:2vh;
+    height: 6vh;
+    width: 15vh;
+    margin-right:1vh;
+    border-radius: 3vh;
+}
+
+#infoBtn{
+    height: 4vh;
+    width: 4vh;
+    border-radius:3vh;
+    margin-right:5vh;
+    margin-top: 2.75vh;
+}
+
+#bookTitle{
+    color:rgb(70, 67, 61);
+    margin-top:2vh;
+    font-size: 3vh;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-decoration-line:unset;
+
+}
+#bookTitle:hover{ 
+    color:rgb(255, 0, 0)
+}
+#bookInfo{
+    display:flex;
+   
+   }
+#bookRating{
+    color: rgb(70, 67, 61);
+    margin-top:1vh;
+    margin-left: 10vh;
+}
+#star{
+    margin-top: 0.5vh;
+    margin-left: 1vh;
+    
+}
+#bookPrice{
+ color: rgb(70, 67, 61);
+ margin-top:1vh;
+ margin-left: 1vh;
+}
+
+.bookData{
+    margin-left: 23vh;
+}
+#bookTitle{
+
+    width: 30vh;
+    text-align: center; 
+    margin-left: 2vh;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#register{
+    margin-top: 1vh;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    height: 95vh;
+    width: 70vh;
+    border: 1vh solid rgb(70, 67, 61);
+    border-radius: 2vh;
+    margin-left:55vh;
+}
+
+#title1{
+    margin-top: 3vh;
+    font-size: 6vh;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-decoration-line: underline;
+    color: rgb(70, 67, 61);
+    text-align: center;
+}
+
+#box{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    gap: 0vh;
+    margin-top: 10vh;
+    margin-left:6vh;
+    border-radius: 10vh;
+}
+#nameBox{
+    height: 5vh;
+    width: 55vh;
+    border-radius: 1vh;
+}
+
+#emailBox{
+    height: 5vh;
+    width: 55vh;
+    border-radius: 1vh;
+}
+
+#passwordBox{
+    height: 5vh;
+    width: 55vh;
+    border-radius: 1vh;
+}
+
+#repeatPasswordBox{
+    height: 5vh;
+    width: 55vh;
+    margin-top: 2vh;
+    border-radius: 1vh;
+}
+#error{
+    color: red;
+    font-size: 2vh;
+    padding: 0vh;
+    margin-right: 5vw;
+}
+
+#checkbox{
+   display: flex;
+   margin-left: 5vh;
+   margin-top: 1vh;
+}
+
+#signUp{
+    margin-top: 3vh;
+    height: 7vh;
+    width: 25vh;
+    border-radius: 3vh;
+    color: #000000;  
+}
+
+#have{
+    margin-top: 1.5vh;
+    font-size: 2vh;
+}
+/* #password{
+    height: 6vh;
+    width: 55vh;
+} */
+
