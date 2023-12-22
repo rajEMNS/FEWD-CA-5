@@ -113,8 +113,7 @@ function RegisterData() {
       </div> 
 
         <div id='checkbox'>
-        <input type="checkbox" id='checkbox'/>
-        <p>I agree with all the statements in <a href="">terms of service</a></p>
+        
         </div>
         <div>
         <button id='signUp'  type='submit' >SIGN UP</button>
